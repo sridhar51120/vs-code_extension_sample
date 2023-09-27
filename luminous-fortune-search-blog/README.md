@@ -1,6 +1,6 @@
-# luminous-fortune-blog-example README
+# luminous-fortune-search-blog README
 
-This is the README for your extension "luminous-fortune-blog-example". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "luminous-fortune-search-blog". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

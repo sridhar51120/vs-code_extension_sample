@@ -1,7 +1,8 @@
 {
-  "name": "luminous-fortune-blog-example",
-  "displayName": "luminous-fortune-blog-example",
+  "name": "luminous-fortune-search-blog",
+  "displayName": "luminous-fortune-search-blog",
   "description": "",
+  "publisher": "Sridhar ",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.82.0"
@@ -12,10 +13,12 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "luminous-fortune-blog-example.searchBlogExample",
-      "title": "Blog Search"
-    }]
+    "commands": [
+      {
+        "command": "luminous-fortune-search-blog.searchWDsFBlogExample",
+        "title": "Blog Example"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
@@ -23,13 +26,16 @@
     "test": "node ./test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.82.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "16.x",
+    "@types/vscode": "^1.82.0",
+    "@vscode/test-electron": "^2.3.4",
     "eslint": "^8.47.0",
     "glob": "^10.3.3",
     "mocha": "^10.2.0",
-    "typescript": "^5.1.6",
-    "@vscode/test-electron": "^2.3.4"
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "xml2json": "^0.12.0"
   }
 }
